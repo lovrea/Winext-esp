@@ -83,7 +83,8 @@ This project is licensed under the **MIT License**. See the [LICENSE](https://gi
 ## Support
 
 If you encounter any issues or have questions, please open an issue on the [GitHub Issues page](https://github.com/lovrea/Winext-esp/issues).
+Or join our discord server [DISCORD](https://discord.gg/VBtduYCvKu)
 
 ---
 
-**Note**: This project is not affiliated with or endorsed by Roblox Corporation. Use this script responsibly and ethically.
+**Note**: This project is not affiliated with or endorsed by Roblox Corporation. Use this script responsibly and ethically. (not really use however you want fuck roblox)
