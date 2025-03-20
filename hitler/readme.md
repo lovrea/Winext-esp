@@ -4,13 +4,11 @@ This is a custom **ESP (Extrasensory Perception)** system for Roblox. It allows 
 
 - **ESP Box**: A red box around players.
 - **Billboard Symbol**: A customizable symbol displayed above players' heads.
-- **Player Health**: Displays the player's health (Note: health display is currently non-functional).
-- **Distance**: Displays the distance between the local player and other players.
-
+- **Allowance**:Yes you are allowed to do whatever you want with this source, Do whatever you want just make it good
 ## Screenshots
 
 ![ESP Image 1](https://i.ibb.co/mFYfQ5MK/image.png)
-![ESP Image 2](https://i.ibb.co/FL9bNvsD/image-1.png)
+
 
 ## Controls
 
@@ -18,13 +16,13 @@ This is a custom **ESP (Extrasensory Perception)** system for Roblox. It allows 
     - When **enabled**, the system will display ESP boxes, billboards, and player information.
     - When **disabled**, it removes all ESP features.
 
-## Code Breakdown
+## Code only for the esp that is helded by the Billboard
 
 ```lua
 local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
 local player = Players.LocalPlayer
-local symbol = " " -- Customizable symbol
+local symbol = " " -- Put your fucking symbol here as for my case it put the swastika
 local isHighlighting = false
 local espEnabled = false
 local boxSize = Vector3.new(4, 6, 2)
@@ -41,7 +39,7 @@ local function createBillboard(player)
             billboard.StudsOffset = Vector3.new(0, 3, 0)
 
             local label = Instance.new("TextLabel")
-            label.Text = symbol  -- Customizable symbol
+            label.Text = symbol  
             label.Font = Enum.Font.SourceSans
             label.TextSize = 60
             label.TextColor3 = Color3.fromRGB(255, 255, 255)
