@@ -44,7 +44,7 @@ local function removeBillboard(player)
         end
     end
 end
-
+-- The esp part we orginally thought to make something like 8bit esp but it didn't work
 local function createESP(player)
     if player.Character then
         local character = player.Character
